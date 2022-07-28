@@ -44,7 +44,7 @@ ArrayStack <t> :: ArrayStack(int arraySize) {
 
 template <class t>
 ArrayStack <t> :: ~ArrayStack() {
-    delete this->stack;
+    delete [] this->stack;
 }
 
 
